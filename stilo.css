@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav_responsive-ul{
+    display: none;
+}
+
+.nav{
+    background: gray;
+}
+
+.nav_li{
+    display: inline-block;
+    padding: 9px;
+}
+.nav_li:hover>a{
+color:#802424;
+}
+
+.nav_li:hover{
+    color:#802424;
+    }
+.nav_li a{
+    color: #601a1a;
+    text-decoration: none;
+}
+
+.nav_li i{
+    box-sizing: border-box;
+    text-align: right;
+    margin-right: px;
+}
+
+@media only screen and (max-width: 500px) {
+    .nav_ul{
+        display: none;
+    }
+    .nav_responsive-ul{
+        display: block;
+    }
+}
